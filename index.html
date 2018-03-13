@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+</head>
+<body>
+    <section class="free-consult">
+        <div class="free-consult__memo-box container-fluid">
+            <div class="free-consult__correct-repair row text-center">
+                <p class="col-md-8 ">Как сделать ремонт правильно? Памятка по ремонту квартиры</p>
+                <button class="free-consult__download-memo col-md-3 text-center"><a href="img/Флагман_ремонта.pdf" target="_blank">скачать/ЧИТАТЬ</a></button>
+            </div>
+        </div>
+       <!-- <div class="free-consult__cost-container">
+                <h2 class="free-consult__banner">Закажите бесплатный выезд замерщика и получите консультацию и расчет стоимости ремонта</h2>
+                <ul class="free-consult__you-get">
+                    <li class="free-consult__you-get-item">
+                        <span class="free-consult__item-icon -reference"></span>
+                        <p>Рекомендации по работам
+                            и подбору материалов</p>
+                    </li>
+                    <li class="free-consult__you-get-item">
+                        <span class="free-consult__item-icon -space"></span>
+                        <p>Узнаете, как выгодно
+                            использовать пространство</p>
+                    </li>
+                    <li class="free-consult__you-get-item">
+                        <span class="free-consult__item-icon -calc"></span>
+                        <p>Расчет стоимости
+                            и времени ремонта</p>
+                    </li>
+                </ul>
+            <form action="./mail.php" method="post" class="free-consult__get-reference" id="reference_form">
+                <h5 class="free-consult__reference-banner">Заполните форму, чтобы наш специалист ответил на все ваши вопросы и расчитал стоимость вашего ремонта</h5>
+                <label for="reference-tel" class="free-consult__label">
+                    <input type="tel" id="reference-tel" class="free-consult__enter-tel-for-reference" name="reference_tel" placeholder="+7 (___) ___-__-__">
+                </label>
+                <button type="submit" class="free-consult__submit-reference">Получить расчет и консультацию</button>
+            </form>
+        </div>
+        <div class="free-consult__cities-container">
+            <div class="free-consult__cities">
+                <h6 class="free-consult__our-branches">Города, в которых мы предоставляем услуги по ремонту квартир</h6>
+                <p class="free-consult__city-listing">Москва, Балашиха, Химки, Подольск, Королев, Люберцы, Мытищи, Электросталь, Железнодорожный, Коломна,Москва, Балашиха, Химки, Подольск,
+                    Королев, Люберцы, Мытищи, Электросталь, Железнодорожный, Коломна,Москва, Балашиха, Химки, Подольск, Королев, Люберцы, Мытищи, Электросталь,
+                    Железнодорожный, Коломна,Москва, Балашиха, Химки, Подольск, Королев, Люберцы, Мытищи, Электросталь, Железнодорожный, Коломна,Москва,
+                    Балашиха, Химки, Подольск, Королев, Люберцы, Мытищи, Электросталь, Железнодорожный, Коломна,</p>
+            </div>
+        </div> -->
+    </section>
+
+
+
+
+   <!-- <section class="our-team">
+        <h2 class="our-team__team-banner">Наша команда</h2>
+        <div class="our-team__team-slider-mini">
+            <div class="our-team__team-mini-slide">
+                <img src="img/mini-slider-item.png" alt="team-mini">
+            </div>
+            <div class="our-team__team-mini-slide">
+                <img src="img/mini-slider-item.png" alt="team-mini">
+            </div>
+            <div class="our-team__team-mini-slide">
+                <img src="img/mini-slider-item.png" alt="team-mini">
+            </div>
+            <div class="our-team__team-mini-slide">
+                <img src="img/mini-slider-item.png" alt="team-mini">
+            </div>
+            <div class="our-team__team-mini-slide">
+                <img src="img/mini-slider-item.png" alt="team-mini">
+            </div>
+        </div>
+        <div class="our-team__team-slider">
+            <span class="our-team__previous-button"></span>
+            <span class="our-team__next-button"></span>
+            <div class="our-team__team-slide">
+                <div class="our-team__slide-description">
+                    <svg class="our-team__triangle-svg-right">
+                        <polygon points="0,0 0,30 26,15"
+                                 fill="#ffffff"  stroke-width="1" />
+                    </svg>
+                    <h6 class="our-team__name-feedback">Фамилия Имя</h6>
+                    <p class="our-team__specialist">Прораб <span>Опыт 5 лет</span></p>
+                    <p class="our-team__slide-info">Квартира досталась в наследство от бабушки.
+                        Конечно, мы поддерживали ее в хорошем состоянии,
+                        но для молодой девушки совсем не то. Замерщик
+                        уже через 3 часа после звонка был у меня, составил
+                        смету, посоветовал что и как. Считали вместе с
+                        материалами, цена меня устроила. И результат
+                        тоже!</p>
+                </div>
+                <img src="img/slider-imagex.png" alt="slider-image" class="our-team__human-feedback">
+            </div>
+            <div class="our-team__team-slide">
+                <div class="our-team__slide-description">
+                    <svg class="our-team__triangle-svg-right">
+                        <polygon points="0,0 0,30 26,15"
+                                 fill="#ffffff"  stroke-width="1" />
+                    </svg>
+                    <h6 class="our-team__name-feedback">Фамилия Имя</h6>
+                    <p class="our-team__specialist">Прораб <span>Опыт 5 лет</span></p>
+                    <p class="our-team__slide-info">Квартира досталась в наследство от бабушки.
+                        Конечно, мы поддерживали ее в хорошем состоянии,
+                        но для молодой девушки совсем не то. Замерщик
+                        уже через 3 часа после звонка был у меня, составил
+                        смету, посоветовал что и как. Считали вместе с
+                        материалами, цена меня устроила. И результат
+                        тоже!</p>
+                </div>
+                <img src="img/slider-imagex.png" alt="slider-image" class="our-team__human-feedback">
+            </div>
+            <div class="our-team__team-slide">
+            <div class="our-team__slide-description">
+                <svg class="our-team__triangle-svg-right">
+                        <polygon points="0,0 0,30 26,15"
+                                 fill="#ffffff"  stroke-width="1" />
+                    </svg>
+                <h6 class="our-team__name-feedback">Фамилия Имя</h6>
+                <p class="our-team__specialist">Прораб <span>Опыт 5 лет</span></p>
+                <p class="our-team__slide-info">Квартира досталась в наследство от бабушки.
+                    Конечно, мы поддерживали ее в хорошем состоянии,
+                    но для молодой девушки совсем не то. Замерщик
+                    уже через 3 часа после звонка был у меня, составил
+                    смету, посоветовал что и как. Считали вместе с
+                    материалами, цена меня устроила. И результат
+                    тоже!</p>
+            </div>
+            <img src="img/slider-imagex.png" alt="slider-image" class="our-team__human-feedback">
+        </div>
+            <div class="our-team__team-slide">
+                <div class="our-team__slide-description">
+                    <svg class="our-team__triangle-svg-right">
+                        <polygon points="0,0 0,30 26,15"
+                                 fill="#ffffff"  stroke-width="1" />
+                    </svg>
+                    <h6 class="our-team__name-feedback">Фамилия Имя</h6>
+                    <p class="our-team__specialist">Прораб <span>Опыт 5 лет</span></p>
+                    <p class="our-team__slide-info">Квартира досталась в наследство от бабушки.
+                        Конечно, мы поддерживали ее в хорошем состоянии,
+                        но для молодой девушки совсем не то. Замерщик
+                        уже через 3 часа после звонка был у меня, составил
+                        смету, посоветовал что и как. Считали вместе с
+                        материалами, цена меня устроила. И результат
+                        тоже!</p>
+                </div>
+                <img src="img/slider-imagex.png" alt="slider-image" class="our-team__human-feedback">
+            </div>
+            <div class="our-team__team-slide">
+                <div class="our-team__slide-description">
+                    <svg class="our-team__triangle-svg-right">
+                        <polygon points="0,0 0,30 26,15"
+                                 fill="#ffffff"  stroke-width="1" />
+                    </svg>
+                    <h6 class="our-team__name-feedback">Фамилия Имя</h6>
+                    <p class="our-team__specialist">Прораб <span>Опыт 5 лет</span></p>
+                    <p class="our-team__slide-info">Квартира досталась в наследство от бабушки.
+                        Конечно, мы поддерживали ее в хорошем состоянии,
+                        но для молодой девушки совсем не то. Замерщик
+                        уже через 3 часа после звонка был у меня, составил
+                        смету, посоветовал что и как. Считали вместе с
+                        материалами, цена меня устроила. И результат
+                        тоже!</p>
+                </div>
+                <img src="img/slider-imagex.png" alt="slider-image" class="our-team__human-feedback">
+            </div>
+        </div>
+    </section>-->
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.17.0/jquery.validate.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.10/jquery.mask.js"></script>
+    <script type="text/javascript" src="./js/slick.min.js"></script>
+    <script src="js/carousel-settings.js"></script>
+    <script src="./js/validate,mask.js"></script>
+</body>
+</html>
