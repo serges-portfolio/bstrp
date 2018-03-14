@@ -20,9 +20,6 @@ body {
     display: block;
     /*margin: 0 auto;
     max-width: 1103px;*/
-    .marginb {
-      margin-bottom: 15px;
-    }
     p {
       color: #333333;
       font-family: "Exo2-Regular", sans-serif;
@@ -43,6 +40,7 @@ body {
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.18);
     border-radius: 4px;
     border: 3px solid #ffa800;
+    margin-bottom: 10px;
     /*float: right;*/
     a {
       display: block;
@@ -88,20 +86,23 @@ body {
   &__you-get {
     display: block;
     /*max-width: 852px;*/
-    padding-bottom: 44px;
+
     padding-left: 0;
       /*margin: 0 auto;*/
   }
   &__you-get-item {
     /*display: inline-block;*/
+    margin-bottom: 50px;
     p {
       display: block;
-      /*max-width: 240px;*/
+      max-width: 240px;
       text-align: center;
       color: #463f37;
       font-family: "Exo2-Medium", sans-serif;
       font-size: 18px;
       font-weight: 500;
+      padding-top: 16px;
+      margin: 0 auto;
     }
     /*&:nth-child(2) {
       margin-left: 95px;

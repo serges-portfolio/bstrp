@@ -16,8 +16,6 @@ body {
     display: block;
     /*margin: 0 auto;
     max-width: 1103px;*/ }
-    .free-consult__correct-repair .marginb {
-      margin-bottom: 15px; }
     .free-consult__correct-repair p {
       color: #333333;
       font-family: "Exo2-Regular", sans-serif;
@@ -36,6 +34,7 @@ body {
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.18);
     border-radius: 4px;
     border: 3px solid #ffa800;
+    margin-bottom: 10px;
     /*float: right;*/ }
     .free-consult__download-memo a {
       display: block;
@@ -73,11 +72,11 @@ body {
   .free-consult__you-get {
     display: block;
     /*max-width: 852px;*/
-    padding-bottom: 44px;
     padding-left: 0;
     /*margin: 0 auto;*/ }
   .free-consult__you-get-item {
     /*display: inline-block;*/
+    margin-bottom: 50px;
     /*&:nth-child(2) {
       margin-left: 95px;
       margin-right: 99px;
@@ -89,12 +88,14 @@ body {
     }*/ }
     .free-consult__you-get-item p {
       display: block;
-      /*max-width: 240px;*/
+      max-width: 240px;
       text-align: center;
       color: #463f37;
       font-family: "Exo2-Medium", sans-serif;
       font-size: 18px;
-      font-weight: 500; }
+      font-weight: 500;
+      padding-top: 16px;
+      margin: 0 auto; }
   .free-consult__item-icon {
     display: block;
     height: 82px;
