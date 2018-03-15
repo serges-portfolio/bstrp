@@ -155,7 +155,7 @@ body {
   }
   &__label {
     display: block;
-    width: 272px;
+    width: 282px;
     height: 70px;
     margin: 6px 20px 0 32px;
     float: left;
@@ -469,7 +469,7 @@ body {
     }
     &__submit-reference {
       width: 264px;
-      margin-left: 18px;
+      /*margin-left: 18px;*/
       margin-bottom: 14px;
     }
     &__cities-container {
@@ -542,11 +542,11 @@ body {
         font-size: 15px;
       }
     }
-    &__label {
+    /*&__label {
       width: 252px;
-    }
+    }*/
     &__enter-tel-for-reference {
-      width: 252px;
+      width: 282px;
       margin-left: 0;
     }
     &__submit-reference {

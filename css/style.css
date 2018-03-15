@@ -130,7 +130,7 @@ body {
     /*margin: 0 auto;*/ }
   .free-consult__label {
     display: block;
-    width: 272px;
+    width: 282px;
     height: 70px;
     margin: 6px 20px 0 32px;
     float: left; }
@@ -389,7 +389,7 @@ body {
     padding-top: 12px; }
   .free-consult__submit-reference {
     width: 264px;
-    margin-left: 18px;
+    /*margin-left: 18px;*/
     margin-bottom: 14px; }
   .free-consult__cities-container {
     padding-top: 35px; }
@@ -436,37 +436,39 @@ body {
     right: 77px;
     margin-top: 387px; } }
 @media all and (max-width: 400px) {
-  .free-consult__banner {
-    max-width: 300px;
-    padding-bottom: 0;
-    font-size: 22px; }
-  .free-consult__download-memo {
-    max-width: 250px; }
-    .free-consult__download-memo a {
-      font-size: 15px; }
-  .free-consult__label {
-    width: 252px; }
-  .free-consult__enter-tel-for-reference {
-    width: 252px;
-    margin-left: 0; }
-  .free-consult__submit-reference {
-    width: 252px;
-    margin: 0 auto; }
-  .free-consult__you-get-item {
-    margin-bottom: 29px; }
-    .free-consult__you-get-item:last-child {
-      margin-bottom: 36px; }
-  .free-consult__reference-banner {
-    width: 288px;
-    font-size: 16px;
-    padding-bottom: 12px; }
-  .free-consult__cities-container {
-    margin-top: 35px; }
-  .free-consult__our-branches {
-    font-size: 20px;
-    text-align: center; }
-  .free-consult__city-listing {
-    padding: 0 15px 26px 15px; }
+  .free-consult {
+    /*&__label {
+      width: 252px;
+    }*/ }
+    .free-consult__banner {
+      max-width: 300px;
+      padding-bottom: 0;
+      font-size: 22px; }
+    .free-consult__download-memo {
+      max-width: 250px; }
+      .free-consult__download-memo a {
+        font-size: 15px; }
+    .free-consult__enter-tel-for-reference {
+      width: 282px;
+      margin-left: 0; }
+    .free-consult__submit-reference {
+      width: 252px;
+      margin: 0 auto; }
+    .free-consult__you-get-item {
+      margin-bottom: 29px; }
+      .free-consult__you-get-item:last-child {
+        margin-bottom: 36px; }
+    .free-consult__reference-banner {
+      width: 288px;
+      font-size: 16px;
+      padding-bottom: 12px; }
+    .free-consult__cities-container {
+      margin-top: 35px; }
+    .free-consult__our-branches {
+      font-size: 20px;
+      text-align: center; }
+    .free-consult__city-listing {
+      padding: 0 15px 26px 15px; }
 
   .no-padding {
     padding: 0 !important; }
