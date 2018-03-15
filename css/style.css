@@ -11,7 +11,8 @@ body {
     width: 100%;
     min-height: 75px;
     background-color: #f5ebe4;
-    padding-top: 5px; }
+    padding-top: 5px;
+    padding-bottom: 15px; }
   .free-consult__correct-repair {
     display: block;
     /*margin: 0 auto;
@@ -184,12 +185,14 @@ body {
     color: #463f37;
     font-family: "Exo2-Light", sans-serif;
     font-size: 16px;
-    font-weight: 300; }
+    font-weight: 300;
+    padding-bottom: 15px;
+    margin-bottom: 0; }
 
 .our-team {
   display: block;
   width: 100%;
-  min-height: 784px;
+  min-height: 754px;
   background: url("../img/background-our-team-slider.png") 100%, no-repeat;
   background-size: cover; }
   .our-team__team-banner {
@@ -214,16 +217,16 @@ body {
     border-radius: 50%;
     margin: 0 10px;
     outline: none;
-    border: 2px solid transparent; }
+    border: 1px solid transparent; }
     .our-team__team-mini-slide:focus {
-      border: 2px solid #00dbbc;
-      box-shadow: -4px 4px 15px 1px rgba(0, 192, 176, 0.21); }
+      border: 1px solid #00dbbc;
+      box-shadow: 3px 4px 15px 1px rgba(0, 192, 176, 0.21); }
     .our-team__team-mini-slide img {
       display: block;
       width: 70px;
       height: 70px;
-      padding-right: 3px;
-      padding-bottom: 3px; }
+      /*padding-right: 3px;
+      padding-bottom: 3px;*/ }
   .our-team__team-slider {
     display: block;
     max-width: 890px;
@@ -338,7 +341,7 @@ body {
       margin: 0 auto; }
     .free-consult__get-reference {
       max-width: 720px;
-      padding-bottom: 20px; }
+      padding-bottom: 35px; }
     .free-consult__label {
       float: none;
       margin: 0 auto; }
@@ -347,107 +350,96 @@ body {
       margin: 0 auto; }
 
   .our-team {
-    min-height: 730px; }
+    min-height: 664px; }
     .our-team__team-slider {
       max-width: 300px; }
     .our-team__team-slide {
       max-width: 300px; }
     .our-team__slide-description {
-      margin-top: 10px; }
+      margin-top: 3px;
+      margin-left: 5px; }
     .our-team__name-feedback {
-      font-size: 25px; }
+      font-size: 25px;
+      margin-left: 10px; }
+    .our-team__specialist {
+      margin-left: 10px; }
     .our-team__slide-info {
       max-width: 290px;
       padding: 12px;
-      margin-top: 64px; }
+      margin-top: 22px;
+      margin-bottom: 24px; }
     .our-team__triangle-svg-right {
       display: none; }
     .our-team__human-feedback {
-      width: 100px;
+      display: none !important;
+      /*width: 100px;
       position: absolute;
-      margin-left: 200px; } }
+      margin-left: 200px;*/ } }
 @media all and (max-width: 991px) {
   .free-consult__download-memo {
     margin: 0 auto; } }
 @media all and (max-width: 760px) {
-  .free-consult {
-    /*&__correct-repair {
-      p {
-        float: none;
-        max-width: 300px;
-        font-size: 18px;
-      }
-    }*/
-    /*&__you-get {
-      max-width: 240px;
-    }
-    &__you-get-item {
-      margin: 0 auto;
-      &:nth-child(2) {
-        margin: 0 auto;
-      }
-      &:last-child {
-        padding-left: 35px;
-      }
-    }*/
-    /*&__enter-tel-for-reference {
-      margin-left: 0;
-    }*/ }
-    .free-consult__memo-box {
-      min-height: 140px; }
-    .free-consult__get-reference {
-      max-width: 300px;
-      margin: 0 auto; }
-    .free-consult__reference-banner {
-      font-size: 18px;
-      padding-top: 12px; }
-    .free-consult__submit-reference {
-      width: 264px;
-      margin-left: 18px;
-      margin-bottom: 14px; }
-    .free-consult__cities-container {
-      padding-top: 10px; }
-    .free-consult__our-branches {
-      max-width: 300px;
-      font-size: 16px;
-      padding-left: 10px;
-      margin-bottom: 15px; }
-    .free-consult__city-listing {
-      font-size: 15px;
-      padding-left: 10px;
-      padding-bottom: 12px; }
+  .free-consult__memo-box {
+    min-height: 140px; }
+  .free-consult__get-reference {
+    max-width: 290px;
+    margin: 0 auto; }
+  .free-consult__reference-banner {
+    font-size: 18px;
+    padding-top: 12px; }
+  .free-consult__submit-reference {
+    width: 264px;
+    margin-left: 18px;
+    margin-bottom: 14px; }
+  .free-consult__cities-container {
+    padding-top: 35px; }
+  .free-consult__our-branches {
+    max-width: 300px;
+    font-size: 16px;
+    padding-left: 10px;
+    margin-bottom: 15px; }
+  .free-consult__city-listing {
+    font-size: 15px;
+    padding-left: 10px;
+    padding-bottom: 12px; }
 
   .our-team__team-slider-mini {
-    width: 310px;
+    width: 290px;
     height: 50px;
-    margin-left: calc(50% - 155px);
+    margin-left: calc(50% - 135px);
     margin-bottom: 30px; }
   .our-team__team-mini-slide {
     display: block;
-    width: 50px !important;
-    height: 50px;
+    width: 44px !important;
+    height: 44px;
     border-radius: 50%;
     margin: 0 4px;
     outline: none;
-    border: 2px solid transparent; }
+    border: 1px solid transparent; }
+    .our-team__team-mini-slide:focus {
+      zoom: 1.2;
+      border: 1px solid transparent; }
     .our-team__team-mini-slide img {
       display: block;
-      width: 50px;
-      height: 50px; }
+      width: 44px;
+      height: 44px;
+      padding-right: 1px;
+      padding-bottom: 2px; }
   .our-team__previous-button {
-    z-index: 2;
-    margin-left: -10px;
-    opacity: 0.3;
-    margin-top: 220px; }
+    width: 15px;
+    height: 26px;
+    margin-left: 77px;
+    margin-top: 387px; }
   .our-team__next-button {
-    z-index: 2;
-    right: 0;
-    opacity: 0.3;
-    margin-top: 220px; } }
+    width: 15px;
+    height: 26px;
+    right: 77px;
+    margin-top: 387px; } }
 @media all and (max-width: 400px) {
   .free-consult__banner {
     max-width: 300px;
-    padding-bottom: 0; }
+    padding-bottom: 0;
+    font-size: 22px; }
   .free-consult__download-memo {
     max-width: 250px; }
     .free-consult__download-memo a {
@@ -455,10 +447,31 @@ body {
   .free-consult__label {
     width: 252px; }
   .free-consult__enter-tel-for-reference {
-    width: 212px;
+    width: 252px;
     margin-left: 0; }
   .free-consult__submit-reference {
-    width: 212px;
-    margin-left: 0; } }
+    width: 252px;
+    margin: 0 auto; }
+  .free-consult__you-get-item {
+    margin-bottom: 29px; }
+    .free-consult__you-get-item:last-child {
+      margin-bottom: 36px; }
+  .free-consult__reference-banner {
+    width: 288px;
+    font-size: 16px;
+    padding-bottom: 12px; }
+  .free-consult__cities-container {
+    margin-top: 35px; }
+  .free-consult__our-branches {
+    font-size: 20px;
+    text-align: center; }
+  .free-consult__city-listing {
+    padding: 0 15px 26px 15px; }
+
+  .no-padding {
+    padding: 0 !important; }
+
+  .our-team {
+    min-height: 714px; } }
 
 /*# sourceMappingURL=style.css.map */
